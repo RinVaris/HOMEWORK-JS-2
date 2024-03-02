@@ -22,5 +22,5 @@ if (dayNumber > 0 && dayNumber < 10) {
 } else if (dayNumber >= 21 && dayNumber <= 31) {
   console.log(`Число ${dayNumber} попадает в третью декаду месяца.`);
 } else {
-  console.log(`Неверное значение.`)
+  console.log(`Неверное значение.`);
 }
