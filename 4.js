@@ -23,10 +23,11 @@
 Подсказка: Возможно, вам понадобится округление чисел и оператор %.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
-
-// const number = 2367;
-// console.log(number % 10);
-// console.log(Math.trunc(number / 10) % 10);
-// console.log(Math.trunc(number / 100) % 10);
-// console.log(Math.trunc(number / 1000) % 10);
+let userNumber = +prompt("Введите целое число: ");
+while (!Number.isInteger(userNumber) || userNumber <= 0) {
+  userNumber = +prompt("Вы ввели некорректное значение. Введите положительное целое число: ");
+}
+const units = userNumber % 10;
+const tens = Math.trunc(userNumber / 10) % 10;
+const nundreds = Math.trunc(userNumber / 100) % 10;
+alert(`В числе ${userNumber} количество сотен: ${nundreds}, десятков: ${tens}, единиц: ${units}.`);
