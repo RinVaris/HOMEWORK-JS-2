@@ -14,7 +14,7 @@
 число 32.
 */
 
-const dayNumber = +prompt("Введите дату: ");
+const dayNumber = +prompt("Введите день месяца: ");
 if (dayNumber > 0 && dayNumber < 10) {
   console.log(`Число ${dayNumber} попадает в первую декаду месяца.`);
 } else if (dayNumber >= 11 && dayNumber < 20) {
