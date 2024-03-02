@@ -24,3 +24,9 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+// const number = 2367;
+// console.log(number % 10);
+// console.log(Math.trunc(number / 10) % 10);
+// console.log(Math.trunc(number / 100) % 10);
+// console.log(Math.trunc(number / 1000) % 10);

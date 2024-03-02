@@ -8,14 +8,3 @@
 const test = confirm("У вас много денег?");
   console.log(test === true ? "Скоро мы будем у вас" : "До свидания.");
 
-
-
-
-// if (test === true)
-//  {
-//   console.log("Скоро будем у вас ;)");
-// } else {
-//   console.log("До свидания.");
-// }
-
-// console.log(test1 === test2 ? "Переменные равны" : "Переменные не равны");
