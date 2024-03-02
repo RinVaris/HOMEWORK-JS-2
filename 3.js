@@ -14,4 +14,13 @@
 число 32.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const dayNumber = +prompt("Введите дату: ");
+if (dayNumber > 0 && dayNumber < 10) {
+  console.log(`Число ${dayNumber} попадает в первую декаду месяца.`);
+} else if (dayNumber >= 11 && dayNumber < 20) {
+  console.log(`Число ${dayNumber} попадает во вторую декаду месяца.`);
+} else if (dayNumber >= 21 && dayNumber <= 31) {
+  console.log(`Число ${dayNumber} попадает в третью декаду месяца.`);
+} else {
+  console.log(`Неверное значение.`)
+}
